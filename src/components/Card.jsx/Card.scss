@@ -1,0 +1,11 @@
+@use "../../assets/styles/variable" as *;
+
+.card {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: $cardConatiner;
+
+  &__img {
+    width: 100%;
+  }  
+}
