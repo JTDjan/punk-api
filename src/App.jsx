@@ -2,12 +2,16 @@ import React from 'react';
 import './App.scss';
 
 import Main from './components/Main/Main';
+import Navbar from "./components/Navbar/Navbar";
 
-function App() {
+const App = () => {
 
-  
+
   return (
+    <>
+    <Navbar />
     <Main />
+    </>
   );
 }
 

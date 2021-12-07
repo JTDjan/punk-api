@@ -7,5 +7,20 @@
 
   &__img {
     width: 100%;
-  }  
+    padding: 10%;
+  } 
+
+  &__title{
+    text-align: center;
+  } 
+
+  &__Abv{
+    text-align: center;
+    margin: 5px 0px;
+  }
+
+  &__description {
+    text-align: center;
+    
+  }
 }
