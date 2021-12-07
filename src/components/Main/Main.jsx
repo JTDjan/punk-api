@@ -7,6 +7,7 @@ const Main = () => {
   return (
     <div className="main"> 
       <h1>Punk API</h1>
+      <h2> test <i class="fas fa-wifi-2    "></i></h2>
 
     
 
