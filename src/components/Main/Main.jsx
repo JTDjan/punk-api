@@ -4,7 +4,7 @@ import CardList from "../CardList/CardList";
 
 
 const Main = (props) => {
-  const {beersArr} =props;
+  const {filterBeerArr} =props;
 
   return (
     <div className="main"> 
@@ -13,7 +13,7 @@ const Main = (props) => {
 
     
 
-      <CardList  beersArr ={beersArr}/>
+      <CardList filterBeerArr={filterBeerArr}/>
      
     </div>
   )

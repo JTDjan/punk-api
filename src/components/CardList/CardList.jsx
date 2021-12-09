@@ -4,10 +4,10 @@ import React from "react";
 import Card from "../Card/Card.jsx";
 
 const CardList = (props) => {
-  const {beersArr} = props
-  console.log(beersArr)
+  const {filterBeerArr} = props
+  
 
-  const cardlistArray = beersArr.map((beer, index) => {
+  const cardlistArray = filterBeerArr.map((beer, index) => {
     return(
      <Card key={beer + index} beerName={beer.name} beerDescription={beer.description} beerImg={beer.image_url} beerAbv={beer.abv} />
      )

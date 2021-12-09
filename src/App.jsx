@@ -9,16 +9,25 @@ const App = () => {
 const [search, setSearch] = useState("");
 
 const handleInput = event => {
-  setSearch(event.target.value)
-  // console.log(event)
+  setSearch(event.target.value.toLowerCase())
 }
-// setSearch()
+
+console.log(search)
+
+const filterBeerArr = beers.filter(beer => {
+  // console.log(beer)
+      if(beer.name.toLowerCase().includes(search)){
+        return true
+      } else { return false}
+    
+});
+  console.log(filterBeerArr,  "filterArr")
 
   
   return (
     <>
       <Navbar handleInput={handleInput} search={search}/>
-      <Main beersArr={beers} />
+      <Main filterBeerArr={filterBeerArr} />
     </>
   );
 };
