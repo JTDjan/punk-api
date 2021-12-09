@@ -1,4 +1,5 @@
 import React from "react";
+import "./CardList.scss"
 
 
 import Card from "../Card/Card.jsx";
@@ -14,7 +15,7 @@ const CardList = (props) => {
     
   })
   return (
-    <div className="CardList_container">
+    <div className="cardList_Container">
       {cardlistArray}
     </div>
   )
