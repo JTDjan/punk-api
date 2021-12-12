@@ -8,19 +8,21 @@
   &__img {
     width: 100%;
     padding: 10%;
-  } 
+    height: 250px;
+    object-fit: contain;
+  }
 
-  &__title{
+  &__title {
     text-align: center;
-  } 
+  }
 
-  &__Abv{
+  &__Abv {
     text-align: center;
     margin: 5px 0px;
   }
 
   &__description {
     text-align: center;
-    padding: 2%; 
+    padding: 2%;
   }
 }
