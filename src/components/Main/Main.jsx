@@ -8,7 +8,7 @@ const Main = (props) => {
 
   return (
     <div className="main"> 
-      <h1>Punk API</h1>
+      <h1 className="main__title">Punk API</h1>
 
 
     

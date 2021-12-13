@@ -15,7 +15,7 @@ const CardList = (props) => {
     
   })
   return (
-    <div className="cardList_Container">
+    <div className="cardList_container">
       {cardlistArray}
     </div>
   )
