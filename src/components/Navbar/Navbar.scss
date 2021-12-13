@@ -1,0 +1,9 @@
+.nav {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 400px) {
+  .nav {
+    margin: 7px 0px;
+  }
+}

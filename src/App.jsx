@@ -42,6 +42,8 @@ const App = () => {
 
   return (
     <div className="appCon">
+      <h1 className="appCon__title">Punk API</h1>
+      
       <Navbar handleInput={handleInput} search={search} />
       <Main filterBeerArr={filterBeerArr} />
     </div>

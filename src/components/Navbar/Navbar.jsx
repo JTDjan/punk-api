@@ -3,13 +3,11 @@ import "./Navbar.scss";
 import SearchBox from "../SearchBox/SearchBox";
 
 const Navbar = (props) => {
-const {handleInput, search} = props;
+  const { handleInput, search } = props;
   return (
-    <nav>
-      <ul>
-        <SearchBox handleInput ={handleInput} search={search}/>
-      </ul>
+    <nav className="nav">
+      <SearchBox handleInput={handleInput} search={search} />
     </nav>
-  )
+  );
 };
 export default Navbar;
