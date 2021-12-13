@@ -1,28 +1,29 @@
 @use "../../assets/styles/variable" as *;
-
 .card {
   border: 1px solid black;
   border-radius: 5px;
   background-color: $cardConatiner;
-
+  padding: 20px;
   &__img {
-    width: 100%;
-    padding: 10%;
-    height: 250px;
-    object-fit: contain;
+    height: 150px;
   }
-
   &__title {
     text-align: center;
   }
-
   &__abv {
     text-align: center;
     margin: 5px 0px;
   }
-
   &__description {
     text-align: center;
     padding: 2%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .card {
+    width: 300px;
+    &__img {
+      height: 150px;
+    }
   }
 }

@@ -1,15 +1,22 @@
-
 .cardList_container {
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-gap: 20px;
-
-border: 1px solid black;
-min-height: 100vh;
-padding: 5%;
-margin: 3%;
-
-
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  border: 1px solid black;
+  min-height: 100vh;
+  padding: 10px;
+  margin: 3%;
 }
 
+@media screen and (min-width: 900px) {
+  .cardList_container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border: 1px solid black;
+    min-height: 100vh;
+    padding: 40px;
+    margin: 3%;
+  }
+}
